@@ -9,7 +9,7 @@ export default function Game({ game }: Props): JSX.Element {
         <h2 className="text-3xl mb-4">{game.title}</h2>
         <p className="italic text-s mb-4">{game.genre}</p>
         <img src={game.thumbnail} alt={game.title} className="mb-4" />
-        <p className="italic text-s text-align-center mb-4">
+        <p className="italic text-s text-center mb-4">
           "{game.short_description}"
         </p>
         <p className="mb-4">{game.developer}</p>
